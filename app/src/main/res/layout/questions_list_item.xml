@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question_question_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        android:text="Question No"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:translationZ="3dp" />
+
+    <Button
+        android:id="@+id/option_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/unselected_btn"
+        android:elevation="3dp"
+        android:stateListAnimator="@null"
+        android:text="Option A"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="3dp" />
+
+    <Button
+        android:id="@+id/option_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/unselected_btn"
+        android:elevation="3dp"
+        android:stateListAnimator="@null"
+        android:text="Option B"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="3dp" />
+
+    <Button
+        android:id="@+id/option_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+    android:background="@drawable/unselected_btn"
+        android:elevation="3dp"
+        android:stateListAnimator="@null"
+        android:text="Option C"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="3dp" />
+
+    <Button
+        android:id="@+id/option_D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+       android:background="@drawable/unselected_btn"
+        android:elevation="3dp"
+        android:stateListAnimator="@null"
+        android:text="Option D"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="3dp" />
+
+</LinearLayout>

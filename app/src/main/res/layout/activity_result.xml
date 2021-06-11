@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".ResultActivity">
+    <TextView
+        android:id="@+id/Result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Result"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:layout_below="@id/Result_text"
+        android:id="@+id/Result_CatName_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2018 Paper"
+        android:textSize="25dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:layout_below="@id/Result_CatName_text"
+        android:id="@+id/Result_CurrectAns_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="120/160 Marks"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"/>
+    <Button
+        android:layout_below="@+id/Result_CurrectAns_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/button_background"
+        android:text="Practice More"
+        android:textStyle="bold"
+        android:id="@+id/result_practice_more"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <Button
+        android:layout_below="@+id/result_practice_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/button_background"
+        android:text="Check Result"
+        android:textStyle="bold"
+        android:fontFamily=""
+        android:id="@+id/result_checkAns"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_checkAns"
+        android:id="@+id/result_RecyclerView"/>
+
+</RelativeLayout>

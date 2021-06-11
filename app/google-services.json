@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "736959116838",
+    "project_id": "eamcet-guru",
+    "storage_bucket": "eamcet-guru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736959116838:android:14d12e8b8c0bc4872658e7",
+        "android_client_info": {
+          "package_name": "com.gurusankar149.bitbank10th"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736959116838-5cf2ha42u149e4qds375sedqv4vv8i6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmvvFE5zSdF2Kz47M5rhH5q4UMMWvnE0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736959116838-5cf2ha42u149e4qds375sedqv4vv8i6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736959116838:android:505502d1dab264082658e7",
+        "android_client_info": {
+          "package_name": "com.gurusankar149.eamcetguru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736959116838-92g2gcneehaloojeb4ou99o9i88vg40k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gurusankar149.eamcetguru",
+            "certificate_hash": "36378b1c1bb1e6514fd64ff310348fc7b2068dcc"
+          }
+        },
+        {
+          "client_id": "736959116838-5cf2ha42u149e4qds375sedqv4vv8i6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmvvFE5zSdF2Kz47M5rhH5q4UMMWvnE0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736959116838-5cf2ha42u149e4qds375sedqv4vv8i6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736959116838:android:bbe8c1ccc770d9232658e7",
+        "android_client_info": {
+          "package_name": "com.gurusankar149.eamcetguruadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736959116838-8ouctm89ag5ptnovfrh851lm2f5oqu6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gurusankar149.eamcetguruadmin",
+            "certificate_hash": "36378b1c1bb1e6514fd64ff310348fc7b2068dcc"
+          }
+        },
+        {
+          "client_id": "736959116838-5cf2ha42u149e4qds375sedqv4vv8i6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmvvFE5zSdF2Kz47M5rhH5q4UMMWvnE0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736959116838-5cf2ha42u149e4qds375sedqv4vv8i6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

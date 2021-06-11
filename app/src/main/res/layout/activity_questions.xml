@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionsActivity">
+
+    <LinearLayout
+        android:id="@+id/Qtopsection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purple_200"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="3dp">
+
+        <TextView
+            android:id="@+id/questionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1/120"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/testTimeRemaing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="180:30 min"
+            android:textColor="#E6FF00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/submitTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/unselected_btn"
+                android:backgroundTint="#FFE500"
+                android:text="Submit"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Qsecondsection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Qtopsection"
+        android:layout_centerHorizontal="true"
+        android:background="#462C87"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="3dp">
+
+        <TextView
+            android:id="@+id/testCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2019 paper"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/bookmarkQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/bookmark" />
+
+        <ImageView
+            android:id="@+id/listQuestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/menu" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/qRecyclerVire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/BOTTOM_END"
+        android:layout_below="@+id/Qsecondsection"
+        android:layout_marginTop="-21dp"
+        android:layout_marginBottom="28dp" />
+
+    <ImageView
+        android:id="@+id/addbokmark"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="529dp"
+        android:src="@drawable/add_bookmark"
+        android:layout_below="@+id/Qsecondsection"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/BOTTOM_END"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        android:paddingHorizontal="5dp">
+
+        <ImageView
+            android:id="@+id/goBack"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#000"
+            android:src="@drawable/back2" />
+
+        <Button
+            android:id="@+id/clearSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF3B00"
+            android:elegantTextHeight="true"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="Clear selctions"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/markForReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#0E3925"
+            android:elegantTextHeight="true"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="Mark for Review"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/go_next"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#000"
+            android:src="@drawable/next" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:id="@+id/text_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Comfirm to Submit"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_below="@+id/text_confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:id="@+id/ans_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Answered"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:layout_below="@+id/ans_count"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:id="@+id/unans_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="UnAnswered"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/unans_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NO"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_no_btn"
+            android:id="@+id/confirm_no"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_background"
+            android:id="@+id/confirm_yes"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>
