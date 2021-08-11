@@ -1,6 +1,6 @@
 # MCQ_QUIZ_APP
 MCQ_QUIZ_APP
-![Screenshot_20210811_215418](https://user-images.githubusercontent.com/68297349/129069863-42daa108-aa95-4e96-a8a5-572137c11b62.jpg)
+![Screenshot_20210811_215418](https://user-images.githubusercontent.com/68297349/129069863-42daa108-aa95-4e96-a8a5-572137c11b62.jpg),
 ![Screenshot_20210811_215412](https://user-images.githubusercontent.com/68297349/129069898-590d7979-61f4-4619-a2b4-fc8b46acecce.jpg)
 ![Screenshot_20210811_215406](https://user-images.githubusercontent.com/68297349/129069901-c6a4a1e4-9510-42d6-8b30-802626466a6c.jpg)
 ![Screenshot_20210811_215234](https://user-images.githubusercontent.com/68297349/129069908-67873cdd-076d-49c4-bed0-68d47c93f717.jpg)
